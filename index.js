@@ -32,7 +32,7 @@ function sendwhatsapp(){
     +"*No of people:* "+people+"%0a"
     +"*Arrival Date:* "+arrdate+"%0a"
     +"*Departure Date:* "+depdate+"%0a"
-    +"*Destination:* "+destination+"%0a%0a"
+    +"*Destination:* "+destination;
     window.open(url,'_blank').focus();
     enquire.style.display="none";    
 }
