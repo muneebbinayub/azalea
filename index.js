@@ -22,7 +22,7 @@ close.addEventListener("click",()=>{
 })
 
 function sendwhatsapp(){
-    var phone = "+919541682858";
+    var phone = "+917889488145";
     var people = document.getElementById("people").value;
     var arrdate = document.getElementById("arrdate").value;
     var depdate = document.getElementById("depdate").value;
@@ -32,7 +32,7 @@ function sendwhatsapp(){
     +"*No of people:* "+people+"%0a"
     +"*Arrival Date:* "+arrdate+"%0a"
     +"*Departure Date:* "+depdate+"%0a"
-    +"*Destination:* "+destination;
+    +"*Destination:* "+destination+"%0a%0a"
     window.open(url,'_blank').focus();
     enquire.style.display="none";    
 }
